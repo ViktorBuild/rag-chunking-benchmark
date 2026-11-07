@@ -1,0 +1,7 @@
+strategy,display_name,cost_per_1k_usd,empirical_api_cost_per_1k_usd,recall@5,mrr,context_precision,faithfulness,answer_relevance,composite_quality,composite_cost,pareto_status,delta_cost_usd,delta_qm,icer_usd_per_qm,icer_label
+fixed_128,Fixed-128,0.1395,0.113,0.7833,0.6331,0.6048,0.9533,0.8502,0.7649,0.4676,Pareto Optimal,0.0,0.0,0.0,Baseline Frontier
+structural,Structural,0.2428,0.2092,0.8917,0.8006,0.766,0.9914,0.8863,0.8672,0.5664,Pareto Optimal,0.1033,0.1023,1.01,$1.01 per +1.0 Qm
+recursive,Recursive,0.2767,0.242,0.8333,0.7481,0.7222,0.9773,0.8509,0.8264,0.6016,Dominated,,,,N/A (Dominated)
+fixed_512,Fixed-512,0.3297,0.2929,0.8417,0.735,0.6923,0.9947,0.896,0.8319,0.6862,Dominated,,,,N/A (Dominated)
+semantic,Semantic,0.3469,0.3136,0.75,0.6113,0.5864,0.9678,0.8408,0.7513,0.6975,Dominated,,,,N/A (Dominated)
+fixed_1024,Fixed-1024,0.5826,0.5368,0.8167,0.6591,0.6249,0.9885,0.8258,0.783,0.9728,Dominated,,,,N/A (Dominated)

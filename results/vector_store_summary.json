@@ -1,0 +1,52 @@
+{
+  "fixed_128": {
+    "collection": "strat_fixed_128",
+    "count": 44812,
+    "metadata": {
+      "hnsw:space": "cosine",
+      "model": "text-embedding-3-small"
+    }
+  },
+  "fixed_512": {
+    "collection": "strat_fixed_512",
+    "count": 11152,
+    "metadata": {
+      "hnsw:space": "cosine",
+      "model": "text-embedding-3-small"
+    }
+  },
+  "fixed_1024": {
+    "collection": "strat_fixed_1024",
+    "count": 5931,
+    "metadata": {
+      "hnsw:space": "cosine",
+      "model": "text-embedding-3-small"
+    }
+  },
+  "recursive": {
+    "collection": "strat_recursive",
+    "count": 12710,
+    "metadata": {
+      "hnsw:space": "cosine",
+      "model": "text-embedding-3-small"
+    }
+  },
+  "structural": {
+    "collection": "strat_structural",
+    "count": 18345,
+    "metadata": {
+      "hnsw:space": "cosine",
+      "model": "text-embedding-3-small"
+    }
+  },
+  "semantic": {
+    "collection": "strat_semantic",
+    "count": 11659,
+    "metadata": {
+      "dimension": 1536,
+      "hnsw:space": "cosine",
+      "model": "text-embedding-3-small",
+      "semantic_encoder": "text-embedding-3-small"
+    }
+  }
+}
